@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Liza Thapa</title>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">HOME</a>
+        <a href="portfolio.html">PORTFOLIO</a>
+        <a href="contact.html" class="active">CONTACT</a>
+        <a href="blog.html">BLOG</a>
+        <a href="sitereport.html">SITE_REPORT</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    <section class="contact" id="contact">
+        <div class="door">
+            <h2 class="column">CONTACT ME</h2>
+        </div>
+        
+        <div class="phone">
+            <h3>Phone</h3>
+            <span>+977 9861293000</span>
+            </div>
+        
+        
+        <div class="info">
+            <h3>Address</h3>
+            <span>Kathmandu, Nepal</span>
+        </div>
+        
+        <div class="address">
+            <h3>Email Address</h3>
+            <span> liza.2022170@gmail.com</span>
+            
+        </div>
+
+        <div class="message-box">
+            <textarea name="name" rows="10" cols="90" placeholder="Message" id="message"></textarea>
+          </div>
+          <div class="message-box">
+            <a class="mail" href="mailto:liza.2022170@gmail.com">Send </a>
+            
+          </div>
+
+
+    </section>
+    <script>
+        function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+    </script>
+    </body>
+    </html>
